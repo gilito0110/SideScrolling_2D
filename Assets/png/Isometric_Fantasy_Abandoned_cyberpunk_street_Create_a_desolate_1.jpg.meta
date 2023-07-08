@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,10 +132,10 @@ TextureImporter:
       name: Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 212
-        width: 681
-        height: 620
+        x: 832
+        y: 594
+        width: 358
+        height: 236
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_1
       rect:
         serializedVersion: 2
-        x: 683
-        y: 213
-        width: 787
-        height: 618
+        x: 148
+        y: 691
+        width: 277
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +174,10 @@ TextureImporter:
       name: Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1472
-        height: 212
+        x: 570
+        y: 700
+        width: 147
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,6 +187,174 @@ TextureImporter:
       bones: []
       spriteID: 72508152e9d0dc84487643c01168949c
       internalID: -1706826256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 211
+        width: 148
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407b4702c51137844afd72589966c25d
+      internalID: 733574501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 212
+        width: 277
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5ca043601eaf846baa935dff5dee85
+      internalID: 328720907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_5
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 212
+        width: 359
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c60e91d83c981547bff3890697c1323
+      internalID: 461344249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_6
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 212
+        width: 145
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91936fa20e58ce548a6bdde3b11985b7
+      internalID: 130395566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_7
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 700
+        width: 114
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0421b729d770fe4b960d10850546f44
+      internalID: 1238868439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_8
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 211
+        width: 260
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d0eadc5c8cfb7479b5b1d579cb781d
+      internalID: 1017321716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_9
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 212
+        width: 282
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753c846b32f5c3742ba5a583d5f2bd2e
+      internalID: 1185509263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1472
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346c46c882a89a34a93bf9650103f982
+      internalID: -1321469867
       vertices: []
       indices: 
       edges: []
@@ -202,9 +370,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_9: 1185509263
+      Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_4: 328720907
+      Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_5: 461344249
+      Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_8: 1017321716
       Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_1: -137126668
       Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_2: -1706826256
       Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_0: 436790569
+      Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_10: -1321469867
+      Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_6: 130395566
+      Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_3: 733574501
+      Isometric_Fantasy_Abandoned_cyberpunk_street_Create_a_desolate_1_7: 1238868439
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
