@@ -1,0 +1,2314 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'zh' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/SideScrolling_2D
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51086
+Successfully changed project path to: D:/SideScrolling_2D
+D:/SideScrolling_2D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 149.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/SideScrolling_2D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009593 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 108.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.679 seconds
+Domain Reload Profiling:
+	ReloadAssembly (680ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (493ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (102ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005195 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\SideScrolling_2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\SideScrolling_2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 108.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.397 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1398ms)
+		BeginReloadAssembly (244ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (1028ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (537ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (57.1 KB). Loaded Objects now: 4521.
+Memory consumption went from 154.8 MB to 154.8 MB.
+Total: 4.128900 ms (FindLiveObjects: 0.474100 ms CreateObjectMapping: 0.143100 ms MarkObjects: 3.366600 ms  DeleteObjects: 0.143600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4175.633615 seconds.
+  path: Assets/palette/back4_0.asset
+  artifactKey: Guid(a331a5d722f927b429c2974902295e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/back4_0.asset using Guid(a331a5d722f927b429c2974902295e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049392ac95737efa59e047e6835ac8fd') in 0.064378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034941 seconds.
+  path: Assets/palette/back4_2.asset
+  artifactKey: Guid(525f2f6fc6c5d4e4cab2a884dd8deaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/back4_2.asset using Guid(525f2f6fc6c5d4e4cab2a884dd8deaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcba02ed6860c15bbe63a0869c48cc8') in 0.010703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.732503 seconds.
+  path: Assets/palette/back6_0.asset
+  artifactKey: Guid(1461ec61906573b47915bf0cbd92f60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/back6_0.asset using Guid(1461ec61906573b47915bf0cbd92f60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa75879892af9d5a12e7e9f69d9bc88c') in 0.013092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.303881 seconds.
+  path: Assets/palette/back6_2.asset
+  artifactKey: Guid(3f2c148a7a9a15a4dab38eb2983b3a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/back6_2.asset using Guid(3f2c148a7a9a15a4dab38eb2983b3a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d8a9b14f44ac8ac3f9719ed1209b88') in 0.008614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050058 seconds.
+  path: Assets/palette/back6_4.asset
+  artifactKey: Guid(2d8e036adefe4c24d906ded6688cf280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/back6_4.asset using Guid(2d8e036adefe4c24d906ded6688cf280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3ce1a22088e1e0716b475b955c2aef') in 0.021665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.495984 seconds.
+  path: Assets/palette/back_9.asset
+  artifactKey: Guid(51fe13f6ff842d74f8fa412609f2a661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/back_9.asset using Guid(51fe13f6ff842d74f8fa412609f2a661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5cfb28911dc53b7d99ef116a574154') in 0.048805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.819270 seconds.
+  path: Assets/palette/back_11.asset
+  artifactKey: Guid(6719eff587a25364794ece368836b144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/back_11.asset using Guid(6719eff587a25364794ece368836b144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190c6c74a8f8a24ab3202efe7fe7af28') in 0.017438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043123 seconds.
+  path: Assets/palette/back_13.asset
+  artifactKey: Guid(a2962108e31bde5428517688fa744611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/back_13.asset using Guid(a2962108e31bde5428517688fa744611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98806de095ce7fd72fe2dadeab4fff7e') in 0.025339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.800338 seconds.
+  path: Assets/palette/back_15.asset
+  artifactKey: Guid(db34fa47d585bf04f917f53a6c42ca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/back_15.asset using Guid(db34fa47d585bf04f917f53a6c42ca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5988e3fa269772c7e1405d84fe4f23') in 0.048059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.648003 seconds.
+  path: Assets/palette/back_19.asset
+  artifactKey: Guid(c3c956927a8e2e24ab31fbfb841e28a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/back_19.asset using Guid(c3c956927a8e2e24ab31fbfb841e28a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646fb636574e9621baeb7c30368adf60') in 0.010710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076329 seconds.
+  path: Assets/palette/back_21.asset
+  artifactKey: Guid(7f9417a14fe8bb64d90d70563ccec72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/back_21.asset using Guid(7f9417a14fe8bb64d90d70563ccec72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76adb0e5ad805991d9d5773377c64b8a') in 0.010359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062895 seconds.
+  path: Assets/palette/back_23.asset
+  artifactKey: Guid(d2fe3da0ee97695438a7219a119206bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/back_23.asset using Guid(d2fe3da0ee97695438a7219a119206bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a534472bdd37c00f780a1083aab45b5') in 0.010793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.763474 seconds.
+  path: Assets/palette/back_25.asset
+  artifactKey: Guid(3d7249c4dfcb3e74c81a1cc0d0e5c417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/back_25.asset using Guid(3d7249c4dfcb3e74c81a1cc0d0e5c417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8f763cbe1de24c213375981e568b5e') in 0.010589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082467 seconds.
+  path: Assets/palette/back_27.asset
+  artifactKey: Guid(3a5a5796e99819f4b9b9cb486276f66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/back_27.asset using Guid(3a5a5796e99819f4b9b9cb486276f66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc4ef2e5c341449090130bb0bd19196') in 0.009329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048693 seconds.
+  path: Assets/palette/castle_env_0.asset
+  artifactKey: Guid(2a743c74a065c29458b9c014793938ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_0.asset using Guid(2a743c74a065c29458b9c014793938ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ea0995b981892387b86dc5535462af') in 0.004493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.625849 seconds.
+  path: Assets/palette/castle_env_2.asset
+  artifactKey: Guid(b76e38720932587408932fef6f119263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_2.asset using Guid(b76e38720932587408932fef6f119263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc68daba924909457ef2cc4aff20fd3') in 0.016357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082711 seconds.
+  path: Assets/palette/castle_env_4.asset
+  artifactKey: Guid(537ca054c9ffc1a40808ccc78daa7aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_4.asset using Guid(537ca054c9ffc1a40808ccc78daa7aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc419ae5c0c35cd3f741fb5f49a1d607') in 0.007749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.037899 seconds.
+  path: Assets/palette/castle_env_6.asset
+  artifactKey: Guid(ebb6831b1eb297b46bfad763fb2772c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_6.asset using Guid(ebb6831b1eb297b46bfad763fb2772c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46a66ae68dbcd1f234d01b51c0c77d2') in 0.005616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.162490 seconds.
+  path: Assets/palette/castle_env_8.asset
+  artifactKey: Guid(7854a70d9edbeac4bb5a0a02946ff5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_8.asset using Guid(7854a70d9edbeac4bb5a0a02946ff5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfffde500dffd71d87b7872b91b4e8b') in 0.005007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.587386 seconds.
+  path: Assets/palette/castle_env_10.asset
+  artifactKey: Guid(085052882f7149b48bb7843234621285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_10.asset using Guid(085052882f7149b48bb7843234621285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de522ce4bdfb56b15f3aec9cb2a5ab56') in 0.003701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.428093 seconds.
+  path: Assets/palette/castle_env_13.asset
+  artifactKey: Guid(3b86fa31b7d002640bbe60d168e2eba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_13.asset using Guid(3b86fa31b7d002640bbe60d168e2eba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e194ccc1a87d7595637c5a7eb861d894') in 0.005715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/palette/castle_env_16.asset
+  artifactKey: Guid(2eeb76c27c881b345acde98aac0d7af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_16.asset using Guid(2eeb76c27c881b345acde98aac0d7af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3c7ea3c70a6a03d1d446ce6ed2036c') in 0.004269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.355851 seconds.
+  path: Assets/palette/castle_env_19.asset
+  artifactKey: Guid(10081f5690d13584db4ae96fc9c78305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_19.asset using Guid(10081f5690d13584db4ae96fc9c78305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bf3b7c70e20ef1575caa9636896fc6') in 0.004915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.337868 seconds.
+  path: Assets/palette/castle_env_23.asset
+  artifactKey: Guid(ae768b42417988746b8b3a817ed9156f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_23.asset using Guid(ae768b42417988746b8b3a817ed9156f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1408016cb458c2477783042e99e559') in 0.005355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/palette/castle_env_26.asset
+  artifactKey: Guid(f2138eb033adf34448ac462b96be3ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_26.asset using Guid(f2138eb033adf34448ac462b96be3ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33617ac33c1d0b0d933b26b13de23b49') in 0.004531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003320 seconds.
+  path: Assets/palette/castle_env_27.asset
+  artifactKey: Guid(5bd8d0a884559684fa33edd344c1c6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_27.asset using Guid(5bd8d0a884559684fa33edd344c1c6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0274e13efedbc6420ba5d45910ed95a0') in 0.005071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.265884 seconds.
+  path: Assets/palette/castle_env_29.asset
+  artifactKey: Guid(50dfdac98ed26234ebde32906bd4ef6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_29.asset using Guid(50dfdac98ed26234ebde32906bd4ef6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffec89099fb5f0bd04db23d5fbdb131') in 0.027987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_34.asset
+  artifactKey: Guid(ed4abad71dd948e46853eaad45c3c488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_34.asset using Guid(ed4abad71dd948e46853eaad45c3c488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa95fed62bf53bb63e5bb3f73c3fd64a') in 0.004628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.278298 seconds.
+  path: Assets/palette/castle_env_35.asset
+  artifactKey: Guid(2543c9656967e5349b456d13d7c1994d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_35.asset using Guid(2543c9656967e5349b456d13d7c1994d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d73bb58838e710fb2f6584cd2ab05a8') in 0.035984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/palette/castle_env_38.asset
+  artifactKey: Guid(230f2f39b740405489e09c3ef62d1b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_38.asset using Guid(230f2f39b740405489e09c3ef62d1b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178537b11c5531631b676f85dee3b834') in 0.004239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.174064 seconds.
+  path: Assets/palette/castle_env_39.asset
+  artifactKey: Guid(d29bc62f9ba65b94491e47c538f82c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_39.asset using Guid(d29bc62f9ba65b94491e47c538f82c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb352cb0bb6c22ad415c938a9da93754') in 0.007206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009662 seconds.
+  path: Assets/palette/castle_env_41.asset
+  artifactKey: Guid(6bd7559ba4a959c4e811646acd94147a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_41.asset using Guid(6bd7559ba4a959c4e811646acd94147a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345c1d44f938d1c8d2aee37b1737fcfc') in 0.005725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010798 seconds.
+  path: Assets/palette/castle_env_43.asset
+  artifactKey: Guid(2ecdabc3c0c51a04bb5c81c1df29a095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_43.asset using Guid(2ecdabc3c0c51a04bb5c81c1df29a095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc9955bb6a1b5e5e06cb6e9c9fcd3d7') in 0.045650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.288485 seconds.
+  path: Assets/palette/castle_env_45.asset
+  artifactKey: Guid(049a0476596f3c54d9b26671e55fe525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_45.asset using Guid(049a0476596f3c54d9b26671e55fe525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07d6b08d1da0e10b0de4a35fa80c83e') in 0.006499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001421 seconds.
+  path: Assets/palette/castle_env_47.asset
+  artifactKey: Guid(a50dd85f30cf9ca4c98d90acade5a4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_47.asset using Guid(a50dd85f30cf9ca4c98d90acade5a4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40530a2f4c2fdab489e4c679b917a87') in 0.004698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.305515 seconds.
+  path: Assets/palette/castle_env_49.asset
+  artifactKey: Guid(daa11c1f441135442bc59e4258e31318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_49.asset using Guid(daa11c1f441135442bc59e4258e31318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76c31a1ce8bc24e3bf452ff20de26e7') in 0.004452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/palette/castle_env_52.asset
+  artifactKey: Guid(236ee89ce6229d3449e970335cf59c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_52.asset using Guid(236ee89ce6229d3449e970335cf59c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810be8b7a7c07878f82011aa5bee8b45') in 0.004283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.154561 seconds.
+  path: Assets/palette/castle_env_55.asset
+  artifactKey: Guid(3de4e317566ea8540b504363561c662b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_55.asset using Guid(3de4e317566ea8540b504363561c662b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c49c9ef6ab685566f49c49390916e28') in 0.004323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006629 seconds.
+  path: Assets/palette/castle_env_59.asset
+  artifactKey: Guid(b4b19c2a1f7ebd5458d2260c8db084c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_59.asset using Guid(b4b19c2a1f7ebd5458d2260c8db084c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56deebf6f2163e68b853885151fb061c') in 0.004777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.259181 seconds.
+  path: Assets/palette/castle_env_61.asset
+  artifactKey: Guid(912359f759d44294fa46e7a88157050b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_61.asset using Guid(912359f759d44294fa46e7a88157050b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b094579ba5ad776dbf87c118f4ea2cb') in 0.005083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/palette/castle_env_64.asset
+  artifactKey: Guid(ddebc0837364bdf40ad4d9c28bc5ef8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_64.asset using Guid(ddebc0837364bdf40ad4d9c28bc5ef8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92a12d8f8165b7e131549be61a1ca28') in 0.005416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.277177 seconds.
+  path: Assets/palette/castle_env_65.asset
+  artifactKey: Guid(fe04adc41da7bee46b85ecd38b6e468f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_65.asset using Guid(fe04adc41da7bee46b85ecd38b6e468f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5f601932275faee1d3f28261ac5fce') in 0.005679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_68.asset
+  artifactKey: Guid(146f81b3b7fbf3548a2c320579f878f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_68.asset using Guid(146f81b3b7fbf3548a2c320579f878f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6a349db44d7d9d2011106abf4ce107') in 0.004319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.669419 seconds.
+  path: Assets/palette/castle_env_72.asset
+  artifactKey: Guid(aa6221d9c85021f46b4324cac59a3819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_72.asset using Guid(aa6221d9c85021f46b4324cac59a3819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518553923cb0ee51f708834c2214b52c') in 0.041975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_402.asset
+  artifactKey: Guid(b237ebaccb1788a4485b28a27e0eaad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_402.asset using Guid(b237ebaccb1788a4485b28a27e0eaad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd46a6eb49b3c262805c25a1f21a7892') in 0.006439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/palette/castle_env_394.asset
+  artifactKey: Guid(35f01a45ddd0a67488e4fba8a80b8f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_394.asset using Guid(35f01a45ddd0a67488e4fba8a80b8f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa96a9795e3ff3aae88bb5daed03bd2') in 0.004946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/palette/castle_env_674.asset
+  artifactKey: Guid(1c2b29c771e01fd4989e368e317ab3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_674.asset using Guid(1c2b29c771e01fd4989e368e317ab3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1049a9f4ebe7e97f6a5e95d624f59a') in 0.005061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/palette/castle_env_78.asset
+  artifactKey: Guid(fe30744c96219f24aba22d97bd952d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_78.asset using Guid(fe30744c96219f24aba22d97bd952d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c567c3738a64c79f9712336215225a') in 0.006277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/palette/castle_env_855.asset
+  artifactKey: Guid(0d2ef8cca9e07f94487f603bdd5fe6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_855.asset using Guid(0d2ef8cca9e07f94487f603bdd5fe6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00725c90a9e4490eb9b03d18222b915b') in 0.004560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/palette/castle_env_881.asset
+  artifactKey: Guid(fc7521394e986464baa26a8d81ba94cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_881.asset using Guid(fc7521394e986464baa26a8d81ba94cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c65dfbcedf98f25783abf976bedc79c') in 0.004648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/castle_env_993.asset
+  artifactKey: Guid(0ae582af2a418ce4b8cacac3eaf90a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_993.asset using Guid(0ae582af2a418ce4b8cacac3eaf90a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0cb4773deb889d2d47dda8706cdd43') in 0.006362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_868.asset
+  artifactKey: Guid(981c773458daf8949ae22afff534d721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_868.asset using Guid(981c773458daf8949ae22afff534d721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3e57e109e9194449633e77e4d97731') in 0.004979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/palette/castle_env_941.asset
+  artifactKey: Guid(f2e7db398e6be094fb1bd9d188dfa33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_941.asset using Guid(f2e7db398e6be094fb1bd9d188dfa33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6d476467f9ceabf7488d2867392152') in 0.006313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/palette/castle_env_206.asset
+  artifactKey: Guid(cf14e2af8417fc4498d43b779bf5a798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_206.asset using Guid(cf14e2af8417fc4498d43b779bf5a798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4804e61b847386020ecc05ffe441061') in 0.003979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/palette/env_mon_160.asset
+  artifactKey: Guid(8a7340f9821eeee4f892482a7113ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_160.asset using Guid(8a7340f9821eeee4f892482a7113ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18d524e20690c8295303d2147d0b39e') in 0.004820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/palette/env_mon_315.asset
+  artifactKey: Guid(9f059e2848fc6504da80add6b2a0f545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_315.asset using Guid(9f059e2848fc6504da80add6b2a0f545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e00dd5572e0ac3fad781d00bab6727a') in 0.015206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/palette/env_mon_383.asset
+  artifactKey: Guid(f6937c6f962df074a81aca92606ae05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_383.asset using Guid(f6937c6f962df074a81aca92606ae05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd5ec06253c4d25294a5ce269c7a3b5') in 0.003965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/palette/castle_env_965.asset
+  artifactKey: Guid(e59aadf3db009e047bbe976c0a1379a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_965.asset using Guid(e59aadf3db009e047bbe976c0a1379a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e2cf861f623b096a644d6358c261de') in 0.005607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/palette/castle_env_1090.asset
+  artifactKey: Guid(0fc1708ccfba7b645babb0cbda58f2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1090.asset using Guid(0fc1708ccfba7b645babb0cbda58f2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1529bc34cfc2ae755062cb219b22d3') in 0.004825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/palette/castle_env_912.asset
+  artifactKey: Guid(97ebe22229bdf0c49bf606d0de4ff11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_912.asset using Guid(97ebe22229bdf0c49bf606d0de4ff11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5746d08060376434ffa2aa5a68efb026') in 0.004430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/palette/env_rock_174.asset
+  artifactKey: Guid(3f4880e674062bd458687968365afc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_174.asset using Guid(3f4880e674062bd458687968365afc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfa2f27cd562bc23a33907f7b94565d') in 0.041030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/env_rock_350.asset
+  artifactKey: Guid(df36388509a3c7043b79eab67638df02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_350.asset using Guid(df36388509a3c7043b79eab67638df02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b589d4b9b6573b329182975e8ce5ffb') in 0.010036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/env_rock_663.asset
+  artifactKey: Guid(c68a1725158434e41bf0dcf3f03a56ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_663.asset using Guid(c68a1725158434e41bf0dcf3f03a56ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df244620bea0cb49c14934d2e33f2ed') in 0.022427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/palette/ground_40.asset
+  artifactKey: Guid(9518c0f8e92103c4789c75d1aa408ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_40.asset using Guid(9518c0f8e92103c4789c75d1aa408ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5039a498a4cfc2ba2e5a79f7a38c7838') in 0.010422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/palette/env_rock_665.asset
+  artifactKey: Guid(4e7b7a1cd7eab66448004dc2ed77292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_665.asset using Guid(4e7b7a1cd7eab66448004dc2ed77292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307e8fd547f825602d17b22782e1c98d') in 0.036331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/env_mon_387.asset
+  artifactKey: Guid(5a3632750cd5b48448b1f8d7ea2bc670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_387.asset using Guid(5a3632750cd5b48448b1f8d7ea2bc670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c0e3460e566f476589512ade3f1646') in 0.006696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/palette/wood_env_35.asset
+  artifactKey: Guid(029d0a501c3404d49a6d55c358232536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_35.asset using Guid(029d0a501c3404d49a6d55c358232536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3c9d52316e539d858cbda95fd7ba72') in 0.008552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/palette/wood_env_204.asset
+  artifactKey: Guid(7e8b956fd7b849845bec3eaa389b0b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_204.asset using Guid(7e8b956fd7b849845bec3eaa389b0b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31748ce204fe0cb35e14031ef6d078a') in 0.011079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/env_rock_510.asset
+  artifactKey: Guid(0bd405690ce2f5e47aa615065f0279aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_510.asset using Guid(0bd405690ce2f5e47aa615065f0279aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5742c2fbc376bce54f7a4b2fcffb111b') in 0.005122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/castle_env_259.asset
+  artifactKey: Guid(fecb94dc69eee5d44968d8838a3b9ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_259.asset using Guid(fecb94dc69eee5d44968d8838a3b9ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d6c1822b42175b32212bef808588fc') in 0.005468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/palette/env_mon_153.asset
+  artifactKey: Guid(664a98fc3e1051743b63725feaae3ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_153.asset using Guid(664a98fc3e1051743b63725feaae3ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc3707cefbda1944a7746616679cbeb') in 0.004365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/palette/wood_env_86.asset
+  artifactKey: Guid(a25bf42f548732244b7284a6bddaf941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_86.asset using Guid(a25bf42f548732244b7284a6bddaf941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f4a74c15e9aef16703c0f07561e290') in 0.009640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/palette/castle_env_882.asset
+  artifactKey: Guid(628240217f7da8c45879a7098fe1a84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_882.asset using Guid(628240217f7da8c45879a7098fe1a84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ed618e61c878b2403ec929afbc2417') in 0.006291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/palette/ground_158.asset
+  artifactKey: Guid(c64c2f397a437ed488dc69e168a78269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_158.asset using Guid(c64c2f397a437ed488dc69e168a78269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67590616df38ed978e134fc527eb2d89') in 0.029102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/wood_env_170.asset
+  artifactKey: Guid(ae1b58a0dc8fefa4f8151663a62109cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_170.asset using Guid(ae1b58a0dc8fefa4f8151663a62109cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4989a4ba91b7bb41f27ea31c2c738e') in 0.009375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/palette/env_rock_507.asset
+  artifactKey: Guid(ed0c582851b43a845839a6405b3247c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_507.asset using Guid(ed0c582851b43a845839a6405b3247c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59aec7b833f587b68e1743424f23865b') in 0.006741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/palette/castle_env_857.asset
+  artifactKey: Guid(3803264dadc3cf34a949895c447a0f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_857.asset using Guid(3803264dadc3cf34a949895c447a0f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e774a2828095adf530edb4f8354e7f72') in 0.005921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/palette/wood_env_125.asset
+  artifactKey: Guid(21e66e9c03d11214985ae6a441d107db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_125.asset using Guid(21e66e9c03d11214985ae6a441d107db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd309443bd348e061ce26fe51dc22223c') in 0.019443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/palette/castle_env_672.asset
+  artifactKey: Guid(eb8dfbfef9fd8664181f8d9c5ad3ce24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_672.asset using Guid(eb8dfbfef9fd8664181f8d9c5ad3ce24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e7dd6dd23ff0ab4fc40ca67bef79b0') in 0.005844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/palette/castle_env_766.asset
+  artifactKey: Guid(49f0e19ab86cc77459c53a0d3c73aed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_766.asset using Guid(49f0e19ab86cc77459c53a0d3c73aed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b071593728ef2193b3fba07a08ae832f') in 0.004654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/palette/env_rock_106.asset
+  artifactKey: Guid(04b0622624e9ae94e92086e3ec05db26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_106.asset using Guid(04b0622624e9ae94e92086e3ec05db26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb01ce98f7b434e22799bd1f81bfd71') in 0.006283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/palette/castle_env_990.asset
+  artifactKey: Guid(d27a3d16a20a1524ca9f0516e7f31204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_990.asset using Guid(d27a3d16a20a1524ca9f0516e7f31204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ad57faf3c78e59e48b680959ee10e4') in 0.005546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/palette/castle_env_548.asset
+  artifactKey: Guid(70e4a07689de6e34bb8dd4a9715558b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_548.asset using Guid(70e4a07689de6e34bb8dd4a9715558b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90787f0ec955af8f81a98be14a24a1b5') in 0.005147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_847.asset
+  artifactKey: Guid(f25a63722a027e1449eb39bd827d6048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_847.asset using Guid(f25a63722a027e1449eb39bd827d6048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2576cf35b47313104c6fcedea2263ecc') in 0.004546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/palette/env_rock_0.asset
+  artifactKey: Guid(710d1b3b2604374459e789e5a12a6c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_0.asset using Guid(710d1b3b2604374459e789e5a12a6c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f8e1c7d23b9af5e9a2e76fa3ebede4') in 0.041455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/env_rock_105.asset
+  artifactKey: Guid(bdf7a7bcdab0fc44aabd15e01b9f988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_105.asset using Guid(bdf7a7bcdab0fc44aabd15e01b9f988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6ee6aea3960e49cdba4fb62cca67a3') in 0.013947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/palette/env_mon_527.asset
+  artifactKey: Guid(dbeb6972fda3f4c468e2a5f1b787a759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_527.asset using Guid(dbeb6972fda3f4c468e2a5f1b787a759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbe5c1c34107834d759f9efdabd08fe') in 0.004781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/env_mon_151.asset
+  artifactKey: Guid(09876671cea0a854c838d31aca181823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_151.asset using Guid(09876671cea0a854c838d31aca181823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fee1fa3906443ad0303a2a570bbbd7b') in 0.005913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/palette/castle_env_1254.asset
+  artifactKey: Guid(00a81a59d19fcf7409e9bba55bbe3c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1254.asset using Guid(00a81a59d19fcf7409e9bba55bbe3c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601a30356a192c393397a13a2e0ea1e2') in 0.004961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/palette/castle_env_120.asset
+  artifactKey: Guid(de34dac6d6b270148ac01b9adc6ea5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_120.asset using Guid(de34dac6d6b270148ac01b9adc6ea5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7477749c81e8d6083560c402e068d3a7') in 0.004486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/palette/castle_env_1012.asset
+  artifactKey: Guid(5d057b2707426da4bbcb68d1c922f22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1012.asset using Guid(5d057b2707426da4bbcb68d1c922f22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267d1aba5b7055ccfdf2998a99310649') in 0.004890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/env_rock_714.asset
+  artifactKey: Guid(648aec9c98b64f041a58716d1644cd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_714.asset using Guid(648aec9c98b64f041a58716d1644cd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ab9a409b0e189bb7b35b3c982c3d0c') in 0.017809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/palette/castle_env_736.asset
+  artifactKey: Guid(bc1a026f9444330419c335cd0fa1a422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_736.asset using Guid(bc1a026f9444330419c335cd0fa1a422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb56d5da34b1e0d8fd46c8f2ca19075') in 0.004950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/palette/ground_155.asset
+  artifactKey: Guid(c7db488817ee7644ca3a5a6413830980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_155.asset using Guid(c7db488817ee7644ca3a5a6413830980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f131361d8b51558e974a48f711ec5bdd') in 0.009600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/ground_3.asset
+  artifactKey: Guid(23bac4f23ce8bfa4bbeb91e3fbceb81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_3.asset using Guid(23bac4f23ce8bfa4bbeb91e3fbceb81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba86db8b2617452fddeded85275a32c') in 0.009033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/palette/castle_env_1170.asset
+  artifactKey: Guid(123ac9374797e0f4c852b1da4d9deed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1170.asset using Guid(123ac9374797e0f4c852b1da4d9deed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0a51cad8216a524d335bbda5b8d657') in 0.004578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/palette/castle_env_730.asset
+  artifactKey: Guid(2d97082dadf311f4a9efe5e9400553dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_730.asset using Guid(2d97082dadf311f4a9efe5e9400553dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4844af38b935b0d115bea4c0aa059096') in 0.006572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/palette/castle_env_733.asset
+  artifactKey: Guid(70224a2cde231284abffc69efca5ca8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_733.asset using Guid(70224a2cde231284abffc69efca5ca8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73cf48688ebce1549f206a760d07e3b') in 0.005019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/palette/wood_env_29.asset
+  artifactKey: Guid(918d273bda2efa7418f20732649476ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_29.asset using Guid(918d273bda2efa7418f20732649476ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00639226b62d0d082e36f644a93cb5d') in 0.007847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/palette/env_mon_261.asset
+  artifactKey: Guid(415f81c4e7715e84c83c52c3b85895b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_261.asset using Guid(415f81c4e7715e84c83c52c3b85895b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a26d96e67e0e6e9626adafcc78a350') in 0.004503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/castle_env_1368.asset
+  artifactKey: Guid(b9449a74fbac833479af60a4cf7dbfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1368.asset using Guid(b9449a74fbac833479af60a4cf7dbfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3050474344e1d10679cb2f4b715d9863') in 0.004938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_401.asset
+  artifactKey: Guid(4912ad10be0be0a41aec10bc84e97e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_401.asset using Guid(4912ad10be0be0a41aec10bc84e97e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a6490b79050c0b943d6825272b441f') in 0.004535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/palette/castle_env_341.asset
+  artifactKey: Guid(71ab8944f41d9b148a74c2c5971dc920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_341.asset using Guid(71ab8944f41d9b148a74c2c5971dc920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8c7bf5d15743473d007595953ab4da') in 0.005901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/palette/env_mon_380.asset
+  artifactKey: Guid(955643588acb97749b106eaddc324b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_380.asset using Guid(955643588acb97749b106eaddc324b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5de94e795e5f8a93263f68101579b0') in 0.005842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/palette/env_rock_303.asset
+  artifactKey: Guid(c52ddd3dbd5f1994790f9493ea07b2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_303.asset using Guid(c52ddd3dbd5f1994790f9493ea07b2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bc4710d2af7716f0cd7da236e33481') in 0.006267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/palette/castle_env_816.asset
+  artifactKey: Guid(8a9361cff27651a498dd46ad1668b185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_816.asset using Guid(8a9361cff27651a498dd46ad1668b185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90217fd5310911448f19a0ff9f4135da') in 0.007942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/palette/castle_env_1257.asset
+  artifactKey: Guid(84f05c2a2ff73324ba33d1d195865d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1257.asset using Guid(84f05c2a2ff73324ba33d1d195865d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330f405a0ab7dc4663f6be41e5c47244') in 0.005358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/palette/castle_env_988.asset
+  artifactKey: Guid(d675dbabf2e6b5445843ac2c0e9e2c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_988.asset using Guid(d675dbabf2e6b5445843ac2c0e9e2c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2ca1ae36f4ac82b2c6b7b8a7030fe5') in 0.066697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/palette/castle_env_770.asset
+  artifactKey: Guid(5538f7d5efb63ac4a94068e5b98af03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_770.asset using Guid(5538f7d5efb63ac4a94068e5b98af03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656e026c9f8f4d5d836e16ccf5af375d') in 0.004377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/palette/castle_env_872.asset
+  artifactKey: Guid(48d255581a5feb443a2ff7ce58c07e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_872.asset using Guid(48d255581a5feb443a2ff7ce58c07e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c06ecb3defb1d2711531f541d1b28c8') in 0.005274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_250.asset
+  artifactKey: Guid(7ab422b819704a74d93b85436bb28d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_250.asset using Guid(7ab422b819704a74d93b85436bb28d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e30b3741bcf3038283f183e15d63a23') in 0.005647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/palette/castle_env_1377.asset
+  artifactKey: Guid(93d37587d96b63c4d846112e41cb3118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1377.asset using Guid(93d37587d96b63c4d846112e41cb3118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7f2ffb41150b5cb4b3b74501daffd7') in 0.005209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/palette/wood_env_200.asset
+  artifactKey: Guid(f44a5916958a3a240ab6b394a6e19f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_200.asset using Guid(f44a5916958a3a240ab6b394a6e19f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fae9ca4d5b649ded2d8c591491bdb8') in 0.007992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/palette/env_mon_314.asset
+  artifactKey: Guid(c9190cfab5c527344a0b79d4f7bb1721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_314.asset using Guid(c9190cfab5c527344a0b79d4f7bb1721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d2881dd4fba1901a5514db217b9d91') in 0.004414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/env_rock_170.asset
+  artifactKey: Guid(c1faedf3e483fad4a8fe313dd94c7b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_170.asset using Guid(c1faedf3e483fad4a8fe313dd94c7b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f856104555ee97d59e7c8d7fe3195918') in 0.051475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/palette/wood_env_83.asset
+  artifactKey: Guid(b3c4116f590b130459c7f48f5d73e77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_83.asset using Guid(b3c4116f590b130459c7f48f5d73e77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cbc79a1fd4f0ce037a3df8915ecf39') in 0.009860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/palette/env_rock_169.asset
+  artifactKey: Guid(08b3a456a500f7548895f3955de68863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_169.asset using Guid(08b3a456a500f7548895f3955de68863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744eb99f99c9690fe024705f4a5c19da') in 0.005531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/palette/castle_env_1022.asset
+  artifactKey: Guid(075424f2556fa2d49b3b64081528244c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1022.asset using Guid(075424f2556fa2d49b3b64081528244c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b7220353f0de4c7b8a08654f738a3d') in 0.004864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/palette/castle_env_1167.asset
+  artifactKey: Guid(da05c15b2b8393c4bac88902857063c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1167.asset using Guid(da05c15b2b8393c4bac88902857063c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af66724ad1ef4172017302c93cda979d') in 0.006112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/env_mon_307.asset
+  artifactKey: Guid(b61f32a947be1bf4aa5872e395a0027d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_307.asset using Guid(b61f32a947be1bf4aa5872e395a0027d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08899a214ae905536b6cac611b2718d9') in 0.005124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/palette/env_rock_51.asset
+  artifactKey: Guid(8cfa4bdaef1b95d4584d3eb27128ef33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_51.asset using Guid(8cfa4bdaef1b95d4584d3eb27128ef33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3601eaec952a0954bc58015820ca6094') in 0.029018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/palette/castle_env_338.asset
+  artifactKey: Guid(1215cb471b78033419860d873d9169de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_338.asset using Guid(1215cb471b78033419860d873d9169de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83aa943c3a7429e17ed11fa96125ce9a') in 0.035472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/palette/env_rock_606.asset
+  artifactKey: Guid(594687fa0b1810b4c9b5168adce64260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_606.asset using Guid(594687fa0b1810b4c9b5168adce64260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab56c4aadb9ef2d6b8376beefc85dd0') in 0.005569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/castle_env_397.asset
+  artifactKey: Guid(0575984ebd78c574dbf7df2408795552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_397.asset using Guid(0575984ebd78c574dbf7df2408795552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7fc1007c7440770320b129536c6f06') in 0.005445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/palette/wood_env_121.asset
+  artifactKey: Guid(1cd2bf00aeb18b447808f09c84b3b900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_121.asset using Guid(1cd2bf00aeb18b447808f09c84b3b900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e155a71ebaedf096595f1acb19c1a7f8') in 0.007292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/palette/castle_env_1378.asset
+  artifactKey: Guid(b724e690346f6784a9657808d7f4c331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1378.asset using Guid(b724e690346f6784a9657808d7f4c331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914391c3225e7df2d4d4c995640eaa11') in 0.004591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/palette/env_mon_311.asset
+  artifactKey: Guid(98a3d7b41453ad34eb98c98d72d357f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_311.asset using Guid(98a3d7b41453ad34eb98c98d72d357f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f22bcfcdda8b4740ab1d7df824b6932') in 0.005388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/palette/castle_env_252.asset
+  artifactKey: Guid(a84c12c3f0431c74391a3340801e3b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_252.asset using Guid(a84c12c3f0431c74391a3340801e3b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69557f01da9580418b95dba09bfe8ea') in 0.004801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/palette/ground_42.asset
+  artifactKey: Guid(f34f05b1d93c700488edcfe01b021b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_42.asset using Guid(f34f05b1d93c700488edcfe01b021b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e5f4a4bfcefeaa3294e55c7e7cb673') in 0.011301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/palette/castle_env_863.asset
+  artifactKey: Guid(f0463fbe694089041952716a054b5249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_863.asset using Guid(f0463fbe694089041952716a054b5249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0f75331abcb22a140a8fbf54d0e0dd') in 0.005582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/palette/castle_env_1509.asset
+  artifactKey: Guid(79e399a59b7f3dd4a846d8a37059eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1509.asset using Guid(79e399a59b7f3dd4a846d8a37059eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51ded7144d4c7e17b4d938afe19ed04') in 0.004389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/env_mon_310.asset
+  artifactKey: Guid(3c858cdd057db264d84b0a2397b2dec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_310.asset using Guid(3c858cdd057db264d84b0a2397b2dec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e219cb76112b273c2a7c48133ea9330') in 0.005404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/palette/env_rock_347.asset
+  artifactKey: Guid(c9b268987dd8d4d479bfae17ad6641b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_347.asset using Guid(c9b268987dd8d4d479bfae17ad6641b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20feff04845a49aa3d803030df66ed50') in 0.039456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/palette/env_rock_236.asset
+  artifactKey: Guid(64970766026012c4fa44e4e3a823adce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_236.asset using Guid(64970766026012c4fa44e4e3a823adce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5f9613a74025d7aa26487a80100ecd') in 0.004470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/env_mon_103.asset
+  artifactKey: Guid(9846bbd910277d349a976f985b2dc021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_103.asset using Guid(9846bbd910277d349a976f985b2dc021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57451854c82d22fc19bde0057fa56da2') in 0.003928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/palette/ground_123.asset
+  artifactKey: Guid(00c3687ff5a4aec40951aa3054f8ca8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_123.asset using Guid(00c3687ff5a4aec40951aa3054f8ca8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfe08549c218ecb8fc978f692ac23cd') in 0.009963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/palette/wood_env_90.asset
+  artifactKey: Guid(a6e6bbc505833b54f989592e8ca66a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_90.asset using Guid(a6e6bbc505833b54f989592e8ca66a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a36c7d3bdfec15a33d840bbccb6a34a') in 0.009100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/palette/castle_env_334.asset
+  artifactKey: Guid(332ddc1b62373544aa3f7d4d79796b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_334.asset using Guid(332ddc1b62373544aa3f7d4d79796b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7948e2c41b45a88a66930fde7687ee39') in 0.043231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/palette/env_mon_522.asset
+  artifactKey: Guid(fa63cca660eeeb64ca083c3926cb40c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_522.asset using Guid(fa63cca660eeeb64ca083c3926cb40c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635b283dd0c79f087b5f12a73058aeb8') in 0.006156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/palette/wood_env_193.asset
+  artifactKey: Guid(99ea172684d29184baa7eec7e288dcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_193.asset using Guid(99ea172684d29184baa7eec7e288dcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2ffd52c790f330dd21a51966816b52') in 0.009964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/palette/castle_env_1016.asset
+  artifactKey: Guid(0766aa082e3123046937074e4063a1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1016.asset using Guid(0766aa082e3123046937074e4063a1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6f9f599a35d29d049b52065af41d05') in 0.006467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/palette/castle_env_1175.asset
+  artifactKey: Guid(2f10430c11570854f8d2aedee4222f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1175.asset using Guid(2f10430c11570854f8d2aedee4222f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba0162bc0dbf0f34dff367e659741c1') in 0.029866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/castle_env_1014.asset
+  artifactKey: Guid(dfb1429c8bd1de24eb6de2484451c7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1014.asset using Guid(dfb1429c8bd1de24eb6de2484451c7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed77c0a01ce8f445256304a735717e0d') in 0.005072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/palette/castle_env_1013.asset
+  artifactKey: Guid(7148c75a7f38acb41a0cd2c1db57b0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1013.asset using Guid(7148c75a7f38acb41a0cd2c1db57b0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2619e8287120c4c8e6d53d1401f46e87') in 0.006378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/palette/wood_env_177.asset
+  artifactKey: Guid(e88cedc5c0e2e9040a5319fd2c2c31e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_177.asset using Guid(e88cedc5c0e2e9040a5319fd2c2c31e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ac485dacb49bc14358e1412a6446ee') in 0.007424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/env_rock_229.asset
+  artifactKey: Guid(8709e7df698e3cb4da01938f8babb5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_229.asset using Guid(8709e7df698e3cb4da01938f8babb5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042f6828414a5ffed6c0cb7fe4c651a8') in 0.069454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/castle_env_950.asset
+  artifactKey: Guid(e5a64bddc99175a4bb7aba54b910f45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_950.asset using Guid(e5a64bddc99175a4bb7aba54b910f45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077e92e597ce3e6e97736e8250e1a2a5') in 0.005106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/palette/ground_127.asset
+  artifactKey: Guid(144cbed00fc045b41a54db7e7fa03506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_127.asset using Guid(144cbed00fc045b41a54db7e7fa03506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44a5f8dd2accb5b705ef062b9deb9f7') in 0.006859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/palette/env_rock_228.asset
+  artifactKey: Guid(5996585c75e0e7f42ab749596995869e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_228.asset using Guid(5996585c75e0e7f42ab749596995869e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126409f3060d60983b3474e0f37883d4') in 0.004809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/wood_env_192.asset
+  artifactKey: Guid(6e5afe0aec9ce364c8fb1ac943fa642d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_192.asset using Guid(6e5afe0aec9ce364c8fb1ac943fa642d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6609abfe6f2e3750588f40a6f47da8c7') in 0.006928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/palette/castle_env_878.asset
+  artifactKey: Guid(85f59bcac1f53c94bb5e03703af033ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_878.asset using Guid(85f59bcac1f53c94bb5e03703af033ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2793f70d379c191081b51bf6a0635ae7') in 0.008983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/palette/env_mon_529.asset
+  artifactKey: Guid(d62947d7d9cd57740a4930de906dae5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_529.asset using Guid(d62947d7d9cd57740a4930de906dae5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f4358f038e1f581079eb3f318ffac6') in 0.025263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/palette/ground_81.asset
+  artifactKey: Guid(51704e7974bbce34caead33a82ca4b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_81.asset using Guid(51704e7974bbce34caead33a82ca4b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0684a4cfc98f44dd3486c35c5e350d4') in 0.007585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/castle_env_762.asset
+  artifactKey: Guid(818562226479239458e6b4928a4479a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_762.asset using Guid(818562226479239458e6b4928a4479a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36d0fc5ec2eda31c00ac8b05827a5e3') in 0.004049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/palette/castle_env_399.asset
+  artifactKey: Guid(2f7b8874190ec9545b0fa7dac84b7503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_399.asset using Guid(2f7b8874190ec9545b0fa7dac84b7503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49ddf99a231d6be8e2c3b57a944733f') in 0.006471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/palette/wood_env_123.asset
+  artifactKey: Guid(7e99a130b56e4ad448561f159a089b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_123.asset using Guid(7e99a130b56e4ad448561f159a089b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a7e4da24e4a574779eccc82ad4b901') in 0.007589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/palette/wood_env_175.asset
+  artifactKey: Guid(db0408c1cc303a041b93002698f99ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_175.asset using Guid(db0408c1cc303a041b93002698f99ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86e48cd86c7f3a25625db819d7ff408') in 0.007627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/palette/castle_env_729.asset
+  artifactKey: Guid(b073732ba8279d04284066a00c4efe83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_729.asset using Guid(b073732ba8279d04284066a00c4efe83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a0d8717796362bada5a96217cce998') in 0.004569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/palette/env_rock_424.asset
+  artifactKey: Guid(37f6bcf139f790149a98c5095557124a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_424.asset using Guid(37f6bcf139f790149a98c5095557124a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98e78df61edcd8aa9846d39137b6cfa') in 0.017091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/palette/env_rock_346.asset
+  artifactKey: Guid(8c6843868fe45e4469f7681324cee25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_346.asset using Guid(8c6843868fe45e4469f7681324cee25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b080165e7985e9c56376a7560555e91') in 0.021092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/palette/ground_125.asset
+  artifactKey: Guid(aa6fb9928e79a884a9fbf4fb4f95703d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_125.asset using Guid(aa6fb9928e79a884a9fbf4fb4f95703d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1bab37456446873dd55a6789e5966e') in 0.008120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/palette/castle_env_1255.asset
+  artifactKey: Guid(5cd8184bdad04a84e9199fdc0e0fcd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1255.asset using Guid(5cd8184bdad04a84e9199fdc0e0fcd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad82f285fdc4fcddd9fc6043a173108') in 0.004567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/ground_163.asset
+  artifactKey: Guid(71984f4f05b39ab48aede9216c805516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_163.asset using Guid(71984f4f05b39ab48aede9216c805516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77c064322f768608f25848fb27bee39') in 0.007349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/env_rock_710.asset
+  artifactKey: Guid(7a63fc0b532946e478085c13f1b380c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_710.asset using Guid(7a63fc0b532946e478085c13f1b380c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc4d32b9ffdfda513e8553bb451f2e0') in 0.014427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/ground_120.asset
+  artifactKey: Guid(f9d2c77ef9e25f84abf16c248cafd9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_120.asset using Guid(f9d2c77ef9e25f84abf16c248cafd9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76700520bf53fba49bb52ae149f4bc6') in 0.008711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/palette/env_rock_235.asset
+  artifactKey: Guid(df87a60eeddeac547ab649800e25765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_235.asset using Guid(df87a60eeddeac547ab649800e25765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b447b32fc16fc47ca6ed33f0ecc1540') in 0.005898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/palette/env_mon_456.asset
+  artifactKey: Guid(36cd55d955560b647887d316f0fea5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_456.asset using Guid(36cd55d955560b647887d316f0fea5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00495e3c5c98b1c803d222594b1e8c02') in 0.004783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/palette/wood_env_128.asset
+  artifactKey: Guid(91ec3d829ba0cd847a5f2fb14d6960b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_128.asset using Guid(91ec3d829ba0cd847a5f2fb14d6960b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9486ed2b9ef8491a3daa2492e117134') in 0.007615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/palette/wood_env_187.asset
+  artifactKey: Guid(5d823b9df490f774ba9a0e0622aa93cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_187.asset using Guid(5d823b9df490f774ba9a0e0622aa93cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9debb50cf9af44223dee3256b7afcac5') in 0.008719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/env_rock_709.asset
+  artifactKey: Guid(2359af52e7353a14d8c1ea9b98e0c345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_709.asset using Guid(2359af52e7353a14d8c1ea9b98e0c345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113f7754ccc2e8fa0150b85a6100912e') in 0.032652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/palette/wood_env_127.asset
+  artifactKey: Guid(258d411a1440de94d8d7a116099f23b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_127.asset using Guid(258d411a1440de94d8d7a116099f23b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050b4fe7517a742376c8a5eaf1fbe030') in 0.006542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/palette/castle_env_731.asset
+  artifactKey: Guid(c275d309f5f18d04690973ceb27a4bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_731.asset using Guid(c275d309f5f18d04690973ceb27a4bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff2be019f92c67ac0a0c4e37280d3e2') in 0.004471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/palette/env_rock_302.asset
+  artifactKey: Guid(4693e4f46e36d9140a2a475a9d198008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_302.asset using Guid(4693e4f46e36d9140a2a475a9d198008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20e823009ea04d44a0c7f674f53bb46') in 0.018670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/palette/env_rock_49.asset
+  artifactKey: Guid(c49354dde1522574bb1a33c5fe62c38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_49.asset using Guid(c49354dde1522574bb1a33c5fe62c38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21527e68555604676223090b3530fdcc') in 0.004623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/palette/env_mon_378.asset
+  artifactKey: Guid(4317e9e643c8b924783bb08ba8f834d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_378.asset using Guid(4317e9e643c8b924783bb08ba8f834d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d1f0dd7ec510c659cf3c2e0688d2a2') in 0.004572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/palette/env_mon_113.asset
+  artifactKey: Guid(ca63109e7fd7dd34887c7f894ec9fcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_113.asset using Guid(ca63109e7fd7dd34887c7f894ec9fcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a7c0630c130dd653ba27c526307bba') in 0.004286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/palette/env_rock_58.asset
+  artifactKey: Guid(0149fc3dcebae7d49b956cac38df38ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_58.asset using Guid(0149fc3dcebae7d49b956cac38df38ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f196a2c47fa7711e0537b02b31a33123') in 0.035901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/palette/env_mon_317.asset
+  artifactKey: Guid(9c335b1436a9c1e42a52895e7fd79707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_317.asset using Guid(9c335b1436a9c1e42a52895e7fd79707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e2d732d2af96783c758174cd529721') in 0.005954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/palette/castle_env_1502.asset
+  artifactKey: Guid(fa96f0c1dccfd7d44af8ddc3aa6e8d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1502.asset using Guid(fa96f0c1dccfd7d44af8ddc3aa6e8d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a51fc99798672df8a8eebd3171a3801') in 0.004810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/palette/wood_env_196.asset
+  artifactKey: Guid(6f6957e3e41a38d46bf2979b7d41d709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_196.asset using Guid(6f6957e3e41a38d46bf2979b7d41d709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e852acdf46b261ba193220c13f7474') in 0.009141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/palette/castle_env_974.asset
+  artifactKey: Guid(1a01029ff4f5d0745a6af863d3273e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_974.asset using Guid(1a01029ff4f5d0745a6af863d3273e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35263e1257ddf085ec125f6485e11cb3') in 0.004524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/palette/env_mon_377.asset
+  artifactKey: Guid(be57a3048050fb3488e9ccd3fa8e9f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_377.asset using Guid(be57a3048050fb3488e9ccd3fa8e9f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d85a6f3121e96fdb0c9aa757af0e00') in 0.004076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/palette/castle_env_858.asset
+  artifactKey: Guid(9c98507b168ef0947a3c2ab1611737af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_858.asset using Guid(9c98507b168ef0947a3c2ab1611737af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7280510bd44da2bebb1f845ab97e84') in 0.004855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/palette/castle_env_820.asset
+  artifactKey: Guid(36b902ef81e7bbf4bbb55ca2cc1e62a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_820.asset using Guid(36b902ef81e7bbf4bbb55ca2cc1e62a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3943fa5e778db141973f56664b12c96') in 0.005809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/palette/env_rock_418.asset
+  artifactKey: Guid(03c9258d1e6a95c43937c6ba0403b87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_418.asset using Guid(03c9258d1e6a95c43937c6ba0403b87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad27ae56a65298bcccc3762e1b8ea36') in 0.004941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/wood_env_91.asset
+  artifactKey: Guid(85084d29e8c6ee044a8b83a5e28fc598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_91.asset using Guid(85084d29e8c6ee044a8b83a5e28fc598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b46b739cf4e4fc916e64a92634e205') in 0.008235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/palette/castle_env_904.asset
+  artifactKey: Guid(e94293e4b77b5b34ba299128e2011638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_904.asset using Guid(e94293e4b77b5b34ba299128e2011638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cdc035f401ddcaa434a965d17a04fa') in 0.004608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/palette/env_rock_9.asset
+  artifactKey: Guid(cfced22f8f0efab448086a55c8ba527d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_9.asset using Guid(cfced22f8f0efab448086a55c8ba527d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c6938105c8bb3d1cc361aabbc63aa0') in 0.008160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_876.asset
+  artifactKey: Guid(88b591c0c4e88e24895e09f4be1e086f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_876.asset using Guid(88b591c0c4e88e24895e09f4be1e086f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f85623f6ef93c49a66a9c93900c8927') in 0.004034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/palette/castle_env_393.asset
+  artifactKey: Guid(378d0dacb250878419975a162c9fc19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_393.asset using Guid(378d0dacb250878419975a162c9fc19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d6c7162b8c2329ec5d6c07c8d4b242') in 0.004516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/palette/castle_env_673.asset
+  artifactKey: Guid(6ca89fd59848f6c4f90f14e74773a2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_673.asset using Guid(6ca89fd59848f6c4f90f14e74773a2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f102fcf80842003eb874d57523086365') in 0.005266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/palette/castle_env_549.asset
+  artifactKey: Guid(8a5280d943a4bfa43bd4451a1f8a8f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_549.asset using Guid(8a5280d943a4bfa43bd4451a1f8a8f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9b08acd57f6a3b3d7fd7e434b062ca') in 0.005812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/wood_env_176.asset
+  artifactKey: Guid(77698c71faf8b60459a250f7de6edae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_176.asset using Guid(77698c71faf8b60459a250f7de6edae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f1b0ae5bd3ca7b3a76056d9cba54b7') in 0.008943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/palette/env_rock_8.asset
+  artifactKey: Guid(14825c5ff1e25ec44acf59d131ea448d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_8.asset using Guid(14825c5ff1e25ec44acf59d131ea448d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bce84bf826da02c834ef0f79e3e9ff4') in 0.026419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/castle_env_1173.asset
+  artifactKey: Guid(f5364bedcd523f046a978a835bb33f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1173.asset using Guid(f5364bedcd523f046a978a835bb33f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800675d851b37d430a6ce73a6745ec13') in 0.004133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/palette/env_rock_237.asset
+  artifactKey: Guid(8c6cf4fc6de229746967ee5898c8577f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_237.asset using Guid(8c6cf4fc6de229746967ee5898c8577f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90de1c89161cd2bdf6a9f4162fd0100') in 0.020963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/palette/castle_env_1017.asset
+  artifactKey: Guid(004f3f610da723c4db74b132e5f08c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1017.asset using Guid(004f3f610da723c4db74b132e5f08c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e12c06d625bfc011bc8cf66e0683ff') in 0.004590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/castle_env_888.asset
+  artifactKey: Guid(87a7cc0331037e24ab929e1dee9351dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_888.asset using Guid(87a7cc0331037e24ab929e1dee9351dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf9b8d4f507cd6f34e3bd67f7531d2d') in 0.003721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/palette/castle_env_400.asset
+  artifactKey: Guid(be5b97e6fa412ad41ab282d86824a365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_400.asset using Guid(be5b97e6fa412ad41ab282d86824a365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead0e5a2f6ab11c9b91ea70c720eb553') in 0.005029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/palette/wood_env_88.asset
+  artifactKey: Guid(4261921e73b24424bb434a0ea5cf11d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_88.asset using Guid(4261921e73b24424bb434a0ea5cf11d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3964c6536fbfb2f9371b4ffbadd883d2') in 0.008599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/palette/env_rock_570.asset
+  artifactKey: Guid(cd8a534ddac12104eae5ee90abcdd973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_570.asset using Guid(cd8a534ddac12104eae5ee90abcdd973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9209c6bf1a1a09d587f897e4587da513') in 0.027401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/palette/env_rock_352.asset
+  artifactKey: Guid(4612cfe96e506ad4cbf61979ade6da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_352.asset using Guid(4612cfe96e506ad4cbf61979ade6da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3b69fe85e51899be1a8c0f88c28007') in 0.024225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/wood_env_183.asset
+  artifactKey: Guid(191ddcd6fb6a78e4c965a769a49239e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_183.asset using Guid(191ddcd6fb6a78e4c965a769a49239e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4bc7533513253b7a9d880f8b9facb4') in 0.010507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/palette/wood_env_174.asset
+  artifactKey: Guid(c4913ba209fc95b4488941de09457666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_174.asset using Guid(c4913ba209fc95b4488941de09457666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f81855ce0dbb54be106b919c9c1a26') in 0.010737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/palette/castle_env_1259.asset
+  artifactKey: Guid(0d1f8cb9307421a4a9d1260693f048c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1259.asset using Guid(0d1f8cb9307421a4a9d1260693f048c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e73f93b59f237ee0bc0c5deccecdef') in 0.005487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/palette/wood_env_181.asset
+  artifactKey: Guid(8fe95bd4a72a82846a45839da1cac2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_181.asset using Guid(8fe95bd4a72a82846a45839da1cac2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88071515ac5d0a4980c7419e9e5e1fd8') in 0.009607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/ground_43.asset
+  artifactKey: Guid(c3e95fc8455ea624c9acbbc027b01d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_43.asset using Guid(c3e95fc8455ea624c9acbbc027b01d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2715e58065a0f0f25a7f3d78dbcac45e') in 0.010832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/palette/castle_env_767.asset
+  artifactKey: Guid(70b1626182c92634a88d56c7177b1e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_767.asset using Guid(70b1626182c92634a88d56c7177b1e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560b522c896eae9b1ecc856fc396b9f4') in 0.004435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/palette/wood_env_189.asset
+  artifactKey: Guid(e08184c73de9fbb48aef1bcbab96d537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_189.asset using Guid(e08184c73de9fbb48aef1bcbab96d537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16419141772973951e82c59a9c9821b4') in 0.008620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/palette/ground_164.asset
+  artifactKey: Guid(3c5c63362a383b74fa59d572c6c0a553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_164.asset using Guid(3c5c63362a383b74fa59d572c6c0a553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288da65cc60c1a1cea3b9fa2ec1356c7') in 0.008021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/env_mon_159.asset
+  artifactKey: Guid(5ea8170f7e8309a43a96850b99d66b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_159.asset using Guid(5ea8170f7e8309a43a96850b99d66b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d328d753ca4d75997e5ccd9fc82145a') in 0.005058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/ground_36.asset
+  artifactKey: Guid(680b311800e7a6747b72babb0e7d56ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_36.asset using Guid(680b311800e7a6747b72babb0e7d56ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20034541c6356db068c7b2ec7ec5ca8f') in 0.009736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/palette/env_rock_103.asset
+  artifactKey: Guid(f419cb41a665c16419c6b52df34923b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_103.asset using Guid(f419cb41a665c16419c6b52df34923b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd684dec52d550542a75fc930c03939') in 0.021209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/palette/wood_env_34.asset
+  artifactKey: Guid(8a8c74655313e404ea155957258feb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_34.asset using Guid(8a8c74655313e404ea155957258feb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30fe66f4ce8ff6bb6c7a1df58374e84') in 0.010586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/palette/env_rock_104.asset
+  artifactKey: Guid(7e5dc4b8deb496b46ad1174cf04d1c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_104.asset using Guid(7e5dc4b8deb496b46ad1174cf04d1c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676ab8f24e0b82f77f52a190470d18f4') in 0.005034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/palette/ground_157.asset
+  artifactKey: Guid(253580db77bc61f4cb0389edc75df0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_157.asset using Guid(253580db77bc61f4cb0389edc75df0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537ae4d8bac5e07b5f44175c4893e56e') in 0.009560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/palette/castle_env_554.asset
+  artifactKey: Guid(088b5be1717435a4fab01b7f97ef90c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_554.asset using Guid(088b5be1717435a4fab01b7f97ef90c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa54060bf435cdfea58c44f27e47b8b9') in 0.006859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/palette/env_rock_427.asset
+  artifactKey: Guid(1d8cf866f22464e42b289e771e566d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_427.asset using Guid(1d8cf866f22464e42b289e771e566d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e4829db9a28de9ef43688f73930922') in 0.139647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/env_rock_423.asset
+  artifactKey: Guid(29857b98d548fcb4ca2a8ed7e801ba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_423.asset using Guid(29857b98d548fcb4ca2a8ed7e801ba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8916419c1a2fd10cb80dd69ea563690f') in 0.023609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/palette/ground_119.asset
+  artifactKey: Guid(8458caa362e6c464893a905c2b78bddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_119.asset using Guid(8458caa362e6c464893a905c2b78bddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e65479aef0f25836a5134c4d1cc0b9') in 0.008951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_765.asset
+  artifactKey: Guid(69a19ce504a6b3d48a2dff05fa75c70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_765.asset using Guid(69a19ce504a6b3d48a2dff05fa75c70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28ed89901056c524db27810301898ba') in 0.005464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/palette/env_rock_421.asset
+  artifactKey: Guid(d59fbbb6e73be784ba13dfac30d72968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_421.asset using Guid(d59fbbb6e73be784ba13dfac30d72968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40123fe3291ef980b4b7f98a8215c04') in 0.005906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/palette/castle_env_1086.asset
+  artifactKey: Guid(f908cf83edfbd65458189f01294aac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1086.asset using Guid(f908cf83edfbd65458189f01294aac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aaabe9686d5037b0468acf52d30e002') in 0.004394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/palette/castle_env_1172.asset
+  artifactKey: Guid(7ff9809d3b570ca46a678a22e64722a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1172.asset using Guid(7ff9809d3b570ca46a678a22e64722a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85d3decb50fc42c2580537a791c324a') in 0.006178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/castle_env_1168.asset
+  artifactKey: Guid(27aa90393fd271544ba0e432e9eac08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1168.asset using Guid(27aa90393fd271544ba0e432e9eac08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3922938fcba781383bf5ec9da930d9') in 0.005524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/palette/env_rock_662.asset
+  artifactKey: Guid(02ac7456655247847b51fe7bc4a658fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_662.asset using Guid(02ac7456655247847b51fe7bc4a658fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b4ac80d8d8efc96c384115bcfc1b05') in 0.018281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/palette/castle_env_76.asset
+  artifactKey: Guid(e75581f02a4a96c479daea34a8b50f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_76.asset using Guid(e75581f02a4a96c479daea34a8b50f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6556b11bc3b022628605ca80005ca0ff') in 0.005141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/palette/env_rock_504.asset
+  artifactKey: Guid(62c4d53e22bbd5c4ca77b2618d66fa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_504.asset using Guid(62c4d53e22bbd5c4ca77b2618d66fa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b856adcb1f116dce07c51632d7d9ad14') in 0.009897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/palette/env_rock_238.asset
+  artifactKey: Guid(6fd0901c2a420b3499f938a9e91486a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_238.asset using Guid(6fd0901c2a420b3499f938a9e91486a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a216713c6d6d474b10d97d552e90fb4a') in 0.013248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.690853 seconds.
+  path: Assets/palette/wood_env_166.asset
+  artifactKey: Guid(586195d207f8d4449b1a02e63d14cbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_166.asset using Guid(586195d207f8d4449b1a02e63d14cbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93a25bcaee30f2b5cf6a9ffbeb714ea') in 0.011652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.291330 seconds.
+  path: Assets/palette/wood_env_164.asset
+  artifactKey: Guid(f8916340a5d04264c829316e4ef79f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_164.asset using Guid(f8916340a5d04264c829316e4ef79f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97819878be3b7768c58e1d0fec9ee6ea') in 0.007947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.097464 seconds.
+  path: Assets/palette/wood_env_162.asset
+  artifactKey: Guid(0b3def11d4258474782d930a2e09a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_162.asset using Guid(0b3def11d4258474782d930a2e09a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9e3136f219aac36014ad1fd6ba8fa5') in 0.007728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.182038 seconds.
+  path: Assets/palette/wood_env_160.asset
+  artifactKey: Guid(74295acddce317046837a8cd92875cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_160.asset using Guid(74295acddce317046837a8cd92875cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea861d5315f69c92fd57b7bb463cabb1') in 0.007213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.225506 seconds.
+  path: Assets/palette/wood_env_158.asset
+  artifactKey: Guid(659fe82f556eaf34c94177b8df853a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_158.asset using Guid(659fe82f556eaf34c94177b8df853a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990a7b5a5699acc3ac6e623b21c7cc92') in 0.047028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.038587 seconds.
+  path: Assets/palette/wood_env_144.asset
+  artifactKey: Guid(d3712d8cd4453ac408be561f817f009d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_144.asset using Guid(d3712d8cd4453ac408be561f817f009d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4379a86f829ca61acb2e56eb340ed87a') in 0.012622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/palette/wood_env_151.asset
+  artifactKey: Guid(d66f6f07feb84964f818ffd5664f5461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_151.asset using Guid(d66f6f07feb84964f818ffd5664f5461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633202fe3cbd4991289287586b03ae1e') in 0.010539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/palette/wood_env_14.asset
+  artifactKey: Guid(d904cf3700ed16e4eb9c0c15cfdf6130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_14.asset using Guid(d904cf3700ed16e4eb9c0c15cfdf6130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2704f82d6e3bb0531951a9174c0cc184') in 0.006684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/wood_env_95.asset
+  artifactKey: Guid(900c26e91ff15b742b88f1ea239f27a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_95.asset using Guid(900c26e91ff15b742b88f1ea239f27a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6b7251d33d37bbcb7b89c849725730') in 0.008917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/palette/ground_83.asset
+  artifactKey: Guid(4fa221fdd3990c84eabcd19afa645202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_83.asset using Guid(4fa221fdd3990c84eabcd19afa645202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab128faf26952536c03382ab32e382cd') in 0.009495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/palette/ground_87.asset
+  artifactKey: Guid(9efc0bda31638e04f98b9e46ae273d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_87.asset using Guid(9efc0bda31638e04f98b9e46ae273d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a860d6dd42cc121cb3af14d8196ca76d') in 0.008974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/ground_0.asset
+  artifactKey: Guid(7f13518d85f9bb540939a94890a18f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_0.asset using Guid(7f13518d85f9bb540939a94890a18f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a629fffe54ab2fdbe45636e7028a34a') in 0.006811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/palette/env_rock_413.asset
+  artifactKey: Guid(40a5b39e2bf20614a9953061d099c7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_413.asset using Guid(40a5b39e2bf20614a9953061d099c7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ac6eea5d9d85323a0cae26f7afbb40') in 0.038233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/env_rock_411.asset
+  artifactKey: Guid(caba3dd1cd10a75479766a1d4d4f9b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_411.asset using Guid(caba3dd1cd10a75479766a1d4d4f9b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e416d442300ef7f64de61524b860e2') in 0.007215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/palette/env_rock_40.asset
+  artifactKey: Guid(db7420975e9446e47b1afb97d8998859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_40.asset using Guid(db7420975e9446e47b1afb97d8998859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb03028bfe2e100efcdb8383bcbb4b94') in 0.019980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/palette/env_mon_467.asset
+  artifactKey: Guid(f87c3a0ce82c01c4581ea7851f8d6857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_467.asset using Guid(f87c3a0ce82c01c4581ea7851f8d6857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3279a5e9ed8058d57f2eec3cfb7cab') in 0.004795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/palette/wood_env_21.asset
+  artifactKey: Guid(15ef161a8fbedf140a9ffa00f4ca0005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_21.asset using Guid(15ef161a8fbedf140a9ffa00f4ca0005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8316ff22510fcd4d4f42626af3dc769') in 0.007966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/palette/env_mon_283.asset
+  artifactKey: Guid(4640bfc6b7455634e9211a34d46c1784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_283.asset using Guid(4640bfc6b7455634e9211a34d46c1784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7816e3c02c991450595208d0735ea57') in 0.004220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/palette/castle_env_1462.asset
+  artifactKey: Guid(5ae310cccdfb31145b721371bf9dffe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1462.asset using Guid(5ae310cccdfb31145b721371bf9dffe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfe5e0101c3a1ba454e42ab9f59ce93') in 0.005704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/palette/env_mon_286.asset
+  artifactKey: Guid(959001b838f147344a545334ef5e8ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_286.asset using Guid(959001b838f147344a545334ef5e8ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053b73c3b2b2144226a2a45b7fed7b36') in 0.004055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/palette/castle_env_1364.asset
+  artifactKey: Guid(2d90a07fd537c1645be70dae66334c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1364.asset using Guid(2d90a07fd537c1645be70dae66334c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00416b6d7d2253be12781ed4266f818') in 0.004873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/palette/castle_env_1210.asset
+  artifactKey: Guid(1c0c02bc68804ee4fa5cf9c7884a7528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1210.asset using Guid(1c0c02bc68804ee4fa5cf9c7884a7528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e9badf520ee247201970ef45e284b7') in 0.004792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/palette/castle_env_1122.asset
+  artifactKey: Guid(06260e815fad3214dad441776c406dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1122.asset using Guid(06260e815fad3214dad441776c406dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e2d512350d81e61b9af396ce129b59') in 0.003946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_1005.asset
+  artifactKey: Guid(2d92b2c3befe0164dbdda0265a283549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1005.asset using Guid(2d92b2c3befe0164dbdda0265a283549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d23e2e9eb5f83447126d2840e687d5') in 0.004084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/palette/castle_env_919.asset
+  artifactKey: Guid(31f3ba88784ecfa4c9557424c5a8a9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_919.asset using Guid(31f3ba88784ecfa4c9557424c5a8a9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214931d5b21fb21331111a289f9efbe3') in 0.004236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/palette/castle_env_1202.asset
+  artifactKey: Guid(1f629becd1046274f9bcd9f4aa1bed20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1202.asset using Guid(1f629becd1046274f9bcd9f4aa1bed20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234602d7b93cd56e9398ea15420462eb') in 0.004841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/palette/castle_env_1097.asset
+  artifactKey: Guid(ef92018f4eb944949886738ae145011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1097.asset using Guid(ef92018f4eb944949886738ae145011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d5621bfd1ba874afe8bdac41ffc407') in 0.005907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/palette/castle_env_1095.asset
+  artifactKey: Guid(d879a661333e048459b7c254a8daafc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1095.asset using Guid(d879a661333e048459b7c254a8daafc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ea14258c86ff67f7f7d13d1a13cf84') in 0.005006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_627.asset
+  artifactKey: Guid(f131a08d3e9299346888284ef45bb499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_627.asset using Guid(f131a08d3e9299346888284ef45bb499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1240e86a834ad4787251465d084868ab') in 0.006329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/palette/castle_env_924.asset
+  artifactKey: Guid(55bc98fb12a308d4bb0f1d8cd39664bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_924.asset using Guid(55bc98fb12a308d4bb0f1d8cd39664bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00237863a3711f8044d9be20f302242b') in 0.006189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/palette/castle_env_547.asset
+  artifactKey: Guid(c9ec0fe6eac69ec478fa829c404432dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_547.asset using Guid(c9ec0fe6eac69ec478fa829c404432dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a7a97ea9b89db26e9b2aa9fb4f99cd') in 0.004820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/palette/castle_env_921.asset
+  artifactKey: Guid(0f7ac19751c8664418807dedfa48f4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_921.asset using Guid(0f7ac19751c8664418807dedfa48f4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d956f0d28fa15ebfb0234aafc3d031d') in 0.005332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/palette/castle_env_414.asset
+  artifactKey: Guid(cc90a667469ba4f4ab1198c491e854f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_414.asset using Guid(cc90a667469ba4f4ab1198c491e854f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b38177d7ac162ad4d460e8a38eb7a2') in 0.005631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/palette/castle_env_353.asset
+  artifactKey: Guid(1b78b6121e44bc44a9d4b11faf63edd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_353.asset using Guid(1b78b6121e44bc44a9d4b11faf63edd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a2b7fec5b9eb7bf0f15057fa6ea8d1') in 0.004438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/palette/castle_env_300.asset
+  artifactKey: Guid(e2af8b76c012ead4bbe3578740613e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_300.asset using Guid(e2af8b76c012ead4bbe3578740613e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e9283e3401ee192a4bb6d32fb8029a') in 0.004805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/palette/castle_env_296.asset
+  artifactKey: Guid(1600ef161792d9b4d9bb5b8cc70ef574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_296.asset using Guid(1600ef161792d9b4d9bb5b8cc70ef574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f3fec62307efcd43f68e528a4a9cf1') in 0.006130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/castle_env_217.asset
+  artifactKey: Guid(c5c935c73380a1b43a46c1238828d4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_217.asset using Guid(c5c935c73380a1b43a46c1238828d4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de968c7d3f686bec0d3df990eebed091') in 0.004587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/palette/castle_env_171.asset
+  artifactKey: Guid(a2903a37c445d7f4684ddc200388bbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_171.asset using Guid(a2903a37c445d7f4684ddc200388bbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010ed5027233d2e70ff48aef53382158') in 0.005728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/palette/castle_env_473.asset
+  artifactKey: Guid(62b86b80d00770248ae4cea186f804cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_473.asset using Guid(62b86b80d00770248ae4cea186f804cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86b908fb6b579fc0091fa7815083df0') in 0.005395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/palette/castle_env_130.asset
+  artifactKey: Guid(67eb4124716d8df4ab65c6d64a1e73d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_130.asset using Guid(67eb4124716d8df4ab65c6d64a1e73d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee77799b63504cfc6699bd742b4e8bd') in 0.005084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_138.asset
+  artifactKey: Guid(0b5ef83762bd14147bca55dde2b60800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_138.asset using Guid(0b5ef83762bd14147bca55dde2b60800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd18e77d41733f0d42ebea2d76e60ee6') in 0.004868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/palette/castle_env_1102.asset
+  artifactKey: Guid(755f33cfe4ae3fb45b1b487bdc536f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1102.asset using Guid(755f33cfe4ae3fb45b1b487bdc536f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a52415e81655d7263f1750c72ccfae2') in 0.004627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/palette/castle_env_1205.asset
+  artifactKey: Guid(12b945e7165de1b498b51260dfa3ca75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1205.asset using Guid(12b945e7165de1b498b51260dfa3ca75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d124d04b70db450c9e576b7d8fac04f') in 0.005941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/palette/castle_env_104.asset
+  artifactKey: Guid(8bdd95c99b4f83b4d8ec1ce36c7156ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_104.asset using Guid(8bdd95c99b4f83b4d8ec1ce36c7156ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8099e11defbd77600f5f90bab501ea9') in 0.004970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/palette/castle_env_467.asset
+  artifactKey: Guid(4949e3798d5630142b9adaec963382aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_467.asset using Guid(4949e3798d5630142b9adaec963382aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b6b20e18bebb8e0e50da9c5e9e9044') in 0.007037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/env_mon_463.asset
+  artifactKey: Guid(7b75a46d754fca84ead8c17890b8bcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_463.asset using Guid(7b75a46d754fca84ead8c17890b8bcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fddf3e90f14ab8d65ee6c021dd3b151') in 0.004958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/palette/castle_env_1123.asset
+  artifactKey: Guid(4ddbcdff595177c41bfdc5e9a6e9a0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1123.asset using Guid(4ddbcdff595177c41bfdc5e9a6e9a0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9da7558d9fb3be6ab3c866b773b31f') in 0.004476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/palette/castle_env_1357.asset
+  artifactKey: Guid(7623f15e69f3a854baae8ef71bdedc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1357.asset using Guid(7623f15e69f3a854baae8ef71bdedc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157de6ab922b53051676a355844021a9') in 0.004598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/palette/castle_env_99.asset
+  artifactKey: Guid(c47b4bd065d45d946a3e5a9aa8efec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_99.asset using Guid(c47b4bd065d45d946a3e5a9aa8efec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303fe524a7baaa3e4f17f3575ac38949') in 0.016194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/palette/wood_env_17.asset
+  artifactKey: Guid(7f09237124be4d2449a2fe495e98a77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_17.asset using Guid(7f09237124be4d2449a2fe495e98a77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd464667365c469a456e588324edbae88') in 0.032488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/palette/castle_env_103.asset
+  artifactKey: Guid(3629cd5bf5f1bfe458cbae0ee8979c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_103.asset using Guid(3629cd5bf5f1bfe458cbae0ee8979c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086f34a612e02c6f6cb5cb2cdf524d97') in 0.005183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/palette/castle_env_139.asset
+  artifactKey: Guid(cff9cc80ef9d1924b84dd035243a9eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_139.asset using Guid(cff9cc80ef9d1924b84dd035243a9eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2be5993f027d4a961ebad9200bbcb2') in 0.005535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/palette/castle_env_1361.asset
+  artifactKey: Guid(c66060d2f8764c64b85238e04e3e184d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1361.asset using Guid(c66060d2f8764c64b85238e04e3e184d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6139b553223c6f881b9a2708e972a546') in 0.004804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/palette/wood_env_18.asset
+  artifactKey: Guid(a0351a80ecd7ada409158daa454c35d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_18.asset using Guid(a0351a80ecd7ada409158daa454c35d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e8583cbe66d7433cd503c64cc4ba4a') in 0.009836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/palette/env_mon_287.asset
+  artifactKey: Guid(b1d86873e33e84d469c063654e3edc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_287.asset using Guid(b1d86873e33e84d469c063654e3edc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d0f67f4b1ce080a8ae7d9b3b711e31') in 0.005646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/palette/castle_env_1460.asset
+  artifactKey: Guid(7249f74515d4f2e4eb3b874b9b2a8c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1460.asset using Guid(7249f74515d4f2e4eb3b874b9b2a8c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e9206ba5fba1b5d12d8f244a78ff29') in 0.006546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/palette/castle_env_546.asset
+  artifactKey: Guid(60861ce5c262a624e81e554530c00b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_546.asset using Guid(60861ce5c262a624e81e554530c00b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae76ac410a8f05d192a7bc41fe37838') in 0.005726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/wood_env_150.asset
+  artifactKey: Guid(d17a357316f163a45851d07a26aa13b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_150.asset using Guid(d17a357316f163a45851d07a26aa13b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4432d857d0f5fec7069de7e299b4f273') in 0.009448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/palette/castle_env_1293.asset
+  artifactKey: Guid(e1eca22e6236ee2438fc7c0340430429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1293.asset using Guid(e1eca22e6236ee2438fc7c0340430429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b7cd8c939f067d9f6e8b5b974928d1') in 0.005301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/castle_env_351.asset
+  artifactKey: Guid(fe71f2759bd907e45ae49f51e0c642d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_351.asset using Guid(fe71f2759bd907e45ae49f51e0c642d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa6cadeb0e022b93db25830504608c6') in 0.005939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/palette/ground_89.asset
+  artifactKey: Guid(46c3bf38e0bb7f249b60a1c8b1b7c2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_89.asset using Guid(46c3bf38e0bb7f249b60a1c8b1b7c2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1607b4ccbcbe327ea53ef08e00530f1e') in 0.008643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/palette/castle_env_1363.asset
+  artifactKey: Guid(d257afccffc64d743817b4bc8ac18160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1363.asset using Guid(d257afccffc64d743817b4bc8ac18160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ef5ff03baa8c53440574ee1057477e') in 0.005367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/palette/castle_env_469.asset
+  artifactKey: Guid(871ab518789b86a46ba8dd1b504fabc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_469.asset using Guid(871ab518789b86a46ba8dd1b504fabc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af52646576e49e9f40d79c2dcb158d7') in 0.005011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/palette/castle_env_374.asset
+  artifactKey: Guid(cbcf5851439b06a478297d23058cd0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_374.asset using Guid(cbcf5851439b06a478297d23058cd0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d175c3ae15a43fb55b7b4f954dfff0') in 0.005285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/palette/castle_env_97.asset
+  artifactKey: Guid(3a4c91a7706da274f9766d258458b20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_97.asset using Guid(3a4c91a7706da274f9766d258458b20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5991211ec6f7f044b246c20e6d7bca1') in 0.006249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/palette/wood_env_20.asset
+  artifactKey: Guid(7b910b580f00b874f99b76b0ec63b983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_20.asset using Guid(7b910b580f00b874f99b76b0ec63b983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267e13b9f434d84e69bf6ecf5a557561') in 0.010465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/palette/castle_env_1458.asset
+  artifactKey: Guid(367ff911968fe8e42a745f1d179cfab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1458.asset using Guid(367ff911968fe8e42a745f1d179cfab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0c47407a98d384153768d109ca2747') in 0.004851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/palette/castle_env_145.asset
+  artifactKey: Guid(c772b97b3e60bb74ab26fd7f62295091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_145.asset using Guid(c772b97b3e60bb74ab26fd7f62295091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da52dd6dac5a0024ef8e2acde4747397') in 0.005655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/palette/castle_env_96.asset
+  artifactKey: Guid(0974e481b1f3ecf40a19bd2b6906dfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_96.asset using Guid(0974e481b1f3ecf40a19bd2b6906dfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ad6ac657cd961557526096925b6b35') in 0.005357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/palette/castle_env_464.asset
+  artifactKey: Guid(0c40d42e958dd274c995d8c4d3cca5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_464.asset using Guid(0c40d42e958dd274c995d8c4d3cca5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af20a405ebafbbc0660db4816dcd2ed0') in 0.006078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/palette/castle_env_219.asset
+  artifactKey: Guid(50028664e47874143a9337682f423492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_219.asset using Guid(50028664e47874143a9337682f423492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260438f8d500a6d5235dc85140cb743d') in 0.005333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/palette/castle_env_347.asset
+  artifactKey: Guid(75c3911f06762924ba3089e58ba8d25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_347.asset using Guid(75c3911f06762924ba3089e58ba8d25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4125523fb75ffaade8261fb23cd6da54') in 0.004938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/env_rock_409.asset
+  artifactKey: Guid(0ea0776fa3a84a649bb36eb15a077926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_rock_409.asset using Guid(0ea0776fa3a84a649bb36eb15a077926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cb98fd200a38d63e8fb9d3d1651541') in 0.006142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/palette/castle_env_298.asset
+  artifactKey: Guid(1db3faff6df3e4c41b0c0fbb4d25e37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_298.asset using Guid(1db3faff6df3e4c41b0c0fbb4d25e37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0155fe5a8e3fddacd56e5470d8d571a9') in 0.004388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/palette/castle_env_346.asset
+  artifactKey: Guid(412f2630fbd020d4c9500dc49efb02ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_346.asset using Guid(412f2630fbd020d4c9500dc49efb02ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba2b41d14bfea4bdcaf466106807b8b') in 0.005598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_1124.asset
+  artifactKey: Guid(447b3888dd3973c4d87317f859efbfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1124.asset using Guid(447b3888dd3973c4d87317f859efbfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bb490b35f93d92cfa9b8f1c5b237f4') in 0.005189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/palette/castle_env_958.asset
+  artifactKey: Guid(6f9ff44973383e642bb65dda190ecdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_958.asset using Guid(6f9ff44973383e642bb65dda190ecdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fd0c9b36bccefb42b495f9ce646481') in 0.004777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_413.asset
+  artifactKey: Guid(7410e1b97496fa04bbf7b43b7d71481b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_413.asset using Guid(7410e1b97496fa04bbf7b43b7d71481b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a149d62bc5df92b98a26b7f39a8f32') in 0.006345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/palette/castle_env_1285.asset
+  artifactKey: Guid(02944efb4373ada479d4fc18d7d0452b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_1285.asset using Guid(02944efb4373ada479d4fc18d7d0452b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da9a364e7392f3771e02618ec72ac6b') in 0.007895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/palette/castle_env_956.asset
+  artifactKey: Guid(3a9e3c6e48bb1174e8b9615b2f35cfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_956.asset using Guid(3a9e3c6e48bb1174e8b9615b2f35cfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b59332fa98f6a1df040efe26a4b4ee') in 0.005971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/palette/castle_env_468.asset
+  artifactKey: Guid(eab50d5921373ef4a8b730c16d7a3b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_468.asset using Guid(eab50d5921373ef4a8b730c16d7a3b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f68c0dee8c099fe784c025ea7f51c0a') in 0.003907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_167.asset
+  artifactKey: Guid(5a7fed2fbef4af0489abb823088dd225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_167.asset using Guid(5a7fed2fbef4af0489abb823088dd225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f966067df59d4413bbf0f5fc107c7caf') in 0.005075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/palette/castle_env_471.asset
+  artifactKey: Guid(c83de0c2ae861d64c834d7abccb1aa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_471.asset using Guid(c83de0c2ae861d64c834d7abccb1aa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053b8cebe2a64d8aa964c6b468f2cbb6') in 0.006197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/palette/wood_env_105.asset
+  artifactKey: Guid(7808afd9c65f6f44aa015bd50b1ea247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/wood_env_105.asset using Guid(7808afd9c65f6f44aa015bd50b1ea247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c848ebcd4d531d1267e0181592d4c8dc') in 0.007518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/palette/castle_env_955.asset
+  artifactKey: Guid(182510e9db095aa42a2b68ae6d65a410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_955.asset using Guid(182510e9db095aa42a2b68ae6d65a410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677391394564251612e9c632b3d3f921') in 0.005878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/palette/env_mon_462.asset
+  artifactKey: Guid(4532b3924b99a5f4ab187affd432fd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/env_mon_462.asset using Guid(4532b3924b99a5f4ab187affd432fd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134b0a0759a325ea92f8ec399cf59156') in 0.006614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/palette/castle_env_952.asset
+  artifactKey: Guid(a6c895f8261820f45a59786e721f73b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/castle_env_952.asset using Guid(a6c895f8261820f45a59786e721f73b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb13f99561c9386675ab75811fcc7d2') in 0.004841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/palette/ground_91.asset
+  artifactKey: Guid(c419da7d09bb8844a9317f4fefc099c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/palette/ground_91.asset using Guid(c419da7d09bb8844a9317f4fefc099c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920b370ec5211b2f8a318acc5d4b74ae') in 0.006993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.147107 seconds.
+  path: Assets/Scenes/opening.unity
+  artifactKey: Guid(f5a9fda9ec94c7d4fbc817df6398811d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/opening.unity using Guid(f5a9fda9ec94c7d4fbc817df6398811d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22546c00ae4603e4b8cbac2ed2fa0fa2') in 0.002557 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004296 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\SideScrolling_2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\SideScrolling_2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (757ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4533.
+Memory consumption went from 153.0 MB to 153.0 MB.
+Total: 3.257800 ms (FindLiveObjects: 0.320500 ms CreateObjectMapping: 0.107300 ms MarkObjects: 2.800000 ms  DeleteObjects: 0.028700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 65.593985 seconds.
+  path: Assets/Prefeb/ladder01.prefab
+  artifactKey: Guid(30569aac170667548858d23d8ee04b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefeb/ladder01.prefab using Guid(30569aac170667548858d23d8ee04b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d943f9ea3b78896a92b810211c4c3f9') in 0.064090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.309266 seconds.
+  path: Assets/chr_op01 1.png
+  artifactKey: Guid(2826d49d8f7739f4e8c58a241024c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chr_op01 1.png using Guid(2826d49d8f7739f4e8c58a241024c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdfc6fe329757c85d195236aa163e9c') in 0.238772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.075364 seconds.
+  path: Assets/Scenes/ingame.unity
+  artifactKey: Guid(a30eb8b0c6273a543b5ff4fde543398b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ingame.unity using Guid(a30eb8b0c6273a543b5ff4fde543398b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e55f53e118cd136829f122ea27c1c40') in 0.002638 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004313 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\SideScrolling_2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\SideScrolling_2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1008ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (773ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (25.7 KB). Loaded Objects now: 4542.
+Memory consumption went from 157.1 MB to 157.0 MB.
+Total: 3.726800 ms (FindLiveObjects: 0.400200 ms CreateObjectMapping: 0.100400 ms MarkObjects: 3.167100 ms  DeleteObjects: 0.057100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 295.025707 seconds.
+  path: Assets/Prefeb/torch.prefab
+  artifactKey: Guid(21701d2330eb05a4e8a0adf07f0a31e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefeb/torch.prefab using Guid(21701d2330eb05a4e8a0adf07f0a31e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '261d0aeb1658fd205f6d3c328499a84c') in 0.074990 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004364 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\SideScrolling_2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\SideScrolling_2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Domain Reload Profiling:
+	ReloadAssembly (997ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (751ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (350ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4549.
+Memory consumption went from 157.3 MB to 157.2 MB.
+Total: 3.240300 ms (FindLiveObjects: 0.353200 ms CreateObjectMapping: 0.100100 ms MarkObjects: 2.753500 ms  DeleteObjects: 0.032200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 162.227599 seconds.
+  path: Assets/Prefeb/torch.prefab
+  artifactKey: Guid(21701d2330eb05a4e8a0adf07f0a31e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefeb/torch.prefab using Guid(21701d2330eb05a4e8a0adf07f0a31e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491ea0f60107aae0249558c94151243d') in 0.068512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.984631 seconds.
+  path: Assets/png/asset1/back4.png
+  artifactKey: Guid(f9cc66e1d316214418b3e69a209b31b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/asset1/back4.png using Guid(f9cc66e1d316214418b3e69a209b31b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3789e320648a2249a26ae3d720d6399') in 0.097734 seconds 
