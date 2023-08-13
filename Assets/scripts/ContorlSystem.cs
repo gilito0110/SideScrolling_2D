@@ -24,6 +24,9 @@ public class ContorlSystem : MonoBehaviour
     [Header("跑步參數")]
     public string PerRun = "IF_Run";
 
+    [Header("跳躍次數")]
+    public int jumpTime;
+
 
 
     private bool isJumping = false;
@@ -33,11 +36,18 @@ public class ContorlSystem : MonoBehaviour
         rig = GetComponent<Rigidbody2D>();
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        jumpTime = 0;
+    }
+
     private void Update()
     {
+
         // 按下空白鍵跳躍
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space)&&jumpTime<2)
         {
+            jumpTime++;
             float jumpVelocity = Mathf.Sqrt(2f * jumpHeight * Mathf.Abs(Physics2D.gravity.y));
             rig.velocity = new Vector2(rig.velocity.x, jumpVelocity);
             isJumping = true;
