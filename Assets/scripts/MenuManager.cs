@@ -1,43 +1,49 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
-using System;
 
 public class MenuManager : MonoBehaviour
 {
-    public Animator ani;
     public AsyncOperation async;
+    public GameObject Menu;
+    public Animator transAni;
 
-    private void Start()
+    private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Menu.SetActive(true);
+            Time.timeScale = 0;
+        }
     }
 
     public void StartGame()
     {
-        StartCoroutine(Change());
+        SceneManager.LoadScene(1);
     }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void BackTitle()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     public void EndGame()
     {
         Application.Quit();
     }
 
-
-    IEnumerator Change()
+    public void ReturnGame() 
     {
-        ani.SetBool("in", true);
-        ani.SetBool("out", false);
-        yield return new WaitForSeconds(1);
-        async=SceneManager.LoadSceneAsync("ingame");
-        async.completed += Loaded;
-    }
-
-    private void Loaded(AsyncOperation obj)
-    {
-        if (ani != null)
-        {
-            ani.SetBool("in", false);
-            ani.SetBool("out", true);
-        }
+        Time.timeScale = 1;
+        Menu.SetActive(false);
     }
 }

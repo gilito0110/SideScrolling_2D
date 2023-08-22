@@ -1,11 +1,8 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System;
 
 public class ContorlSystem : MonoBehaviour
 {
-    
-
-
     [Header("移動速度"), Range(0.5f, 50.0f)]
     public float moveSpeed = 5f;
 
@@ -27,8 +24,6 @@ public class ContorlSystem : MonoBehaviour
     [Header("跳躍次數")]
     public int jumpTime;
 
-
-
     private bool isJumping = false;
 
     private void Awake()
@@ -39,25 +34,23 @@ public class ContorlSystem : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         jumpTime = 0;
+        ani.SetBool("isJump",false);
     }
 
     private void Update()
     {
+        TalkStop();
+    }
 
-        // 按下空白鍵跳躍
-        if (Input.GetKeyDown(KeyCode.Space)&&jumpTime<2)
-        {
-            jumpTime++;
-            float jumpVelocity = Mathf.Sqrt(2f * jumpHeight * Mathf.Abs(Physics2D.gravity.y));
-            rig.velocity = new Vector2(rig.velocity.x, jumpVelocity);
-            isJumping = true;
-        }
-
+    //移動&跳躍
+    private void Move()
+    {
         // 左右移動
         float moveInput = Input.GetAxis("Horizontal");
         rig.velocity = new Vector2(moveInput * moveSpeed, rig.velocity.y);
 
-        if (Input.GetKeyDown(KeyCode.D)|| Input.GetKeyDown(KeyCode.RightArrow))
+
+        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
         }
@@ -65,9 +58,26 @@ public class ContorlSystem : MonoBehaviour
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
         }
+        ani.SetBool(PerRun, moveInput != 0);
 
-        ani.SetBool("IF_Run", moveInput != 0);
+        // 按下空白鍵跳躍
+        if (Input.GetKeyDown(KeyCode.Space) && jumpTime < 2)
+        {
+            jumpTime++;
+            float jumpVelocity = Mathf.Sqrt(2f * jumpHeight * Mathf.Abs(Physics2D.gravity.y));
+            rig.velocity = new Vector2(rig.velocity.x, jumpVelocity);
+            isJumping = true;
+            ani.SetBool("isJump", true);
+        }
+    }
 
+    //Fungus開始時停止動作
+    private void TalkStop()
+    {
+        if (!FlowChartManager.TalkBlock)
+        {
+            Move();
+        }
     }
 
     private void FixedUpdate()
@@ -77,6 +87,8 @@ public class ContorlSystem : MonoBehaviour
         {
             rig.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             isJumping = false;
-        }
+        }  
     }
+
+
 }
